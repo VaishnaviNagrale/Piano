@@ -50,30 +50,6 @@ class _MyAppState extends State<_MyApp> {
                     fun(n=5,Colors.yellow),
                     fun(n=6,Colors.pink),
                     fun(n=7,Colors.greenAccent),
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       player.stop();
-              //     });
-              //   },
-              //   child: Text('Stop'),
-              // ),
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       player.pause();
-              //     });
-              //   },
-              //   child: Text('Pause'),
-              // ),
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       player.resume();
-              //     });
-              //   },
-              //   child: Text('Resume'),
-              // ),
             ],
           ),
         ),
@@ -81,3 +57,27 @@ class _MyAppState extends State<_MyApp> {
     );
   }
 }
+// TextButton(
+//   onPressed: () {
+//     setState(() {
+//       player.stop();
+//     });
+//   },
+//   child: Text('Stop'),
+// ),
+// TextButton(
+//   onPressed: () {
+//     setState(() {
+//       player.pause();
+//     });
+//   },
+//   child: Text('Pause'),
+// ),
+// TextButton(
+//   onPressed: () {
+//     setState(() {
+//       player.resume();
+//     });
+//   },
+//   child: Text('Resume'),
+// ),
